@@ -1,0 +1,91 @@
+body{
+  background-color: #bcdbd8;
+  color: #000000;
+}
+
+section{
+  max-width: 46em;
+  margin: 0 auto;
+}
+
+
+header{
+  background-color: #ffffff;
+  color: #bcdbd8;
+  padding: 18em;
+  position: relative;
+}
+
+.pictos {
+  max-width: 46em;
+  margin: 0 auto;
+}
+
+.pictos li{
+  max-width: 30%;
+}
+
+.pictos ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pictos img{
+  width: 100%
+}
+
+
+
+.nastyadvert {
+  background-image: url(petit.jpg);
+  background-size: cover;
+  background-attachment:fixed;
+  min-height: 40vh;
+  min-width: 10vh;
+  position: relative;
+  padding-top: 110px;
+}
+
+.mywork {
+  background-color: white;
+}
+
+.mywork ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mywork li{
+  border: #ffffff solid 1em;
+  max-width: 30%;
+}
+
+.mywork img{
+  width: 100%
+}
+
+footer{
+  padding: 2em;
+}
+
+footer a {
+  color: #dddddd;
+  text-decoration: underline;
+}
+
+
+.linklist{
+  list-style-type: none;
+  background-color: black;
+}
+
+.linklist li {
+  margin: 12px;
+  background-color: black;
+}
